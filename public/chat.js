@@ -1,4 +1,5 @@
-var socket = io.connect('http://localhost:4000');
+//var socket = io.connect('http://localhost:4000');
+var socket = io();
 
 var persona = document.getElementById('persona');
 var appchat = document.getElementById('app-chat');
